@@ -5,11 +5,10 @@ Let's assume the program could make a mistake in 1 out of 20 cases
 
 **Metrics used:**
 1. Recall
-Bad comments ratio
-If equal to 1, all bad comments were found
+If equal to 1, all toxic comments were found
 
 2. Precision
-Probability of a found bad comment to be bad We don't want it to be lower than 0.95
+We don't want it to be lower than 0.95
 
 **Goals:**
 1. Develop a Binary classificator (input = comment(text); output = ) 
